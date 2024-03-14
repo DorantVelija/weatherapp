@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./WeatherApp/app.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+
+    
+    <div style="display: flex; justify-content: center;">
+      <img src="./WeatherApp/icons/logo.png" alt="" id="logo">
+    </div>
+
+
+
+    <div class="searchbox">
+      
+      <div class="search">
+        <input
+          type="text"
+          name="citySearch"
+          id="citySearch"
+          placeholder="Search for your city"
+          spellcheck="false"
+        />
+        <button id="searchBtn">
+          <img
+            src="./WeatherApp/icons/searchIconPng.png"
+            alt="search icon"
+            id="searchIcon"
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="weather">
+      <p id="error">City not found!</p>
+      <div class="box">
+        <div class="container">
+          <div class="weatherInfo">
+           <p id="name"> <span class="cityName">Gostivar</span>, <span class="country">MK</span></p>
+            <p class="condition">Sunny</p>
+            <div class="iconDiv">
+              <img
+              src="./WeatherApp/icons/weatherIcons/clear.png"
+              alt="weather icon"
+              id="weatherIcon"
+              class="weatherIconC"
+            />
+            </div>
+            
+            <p class="temperature"> <span id="temp">16</span><span> °C</span></p> 
+            <p class="temperatureFeel">Feels like <span id="feelLike"></span><span> °C</span></p>
+          </div>
+          <div class="weatherInfo2">
+            <div class="extraInfo">
+               <img src="./WeatherApp/icons/weatherIcons/humidity.png" id="humidityIcon"><span class="humidity"></span>
+            </div>
+            <div class="extraInfo">
+                <img src="./WeatherApp/icons/weatherIcons/wind.png" id="windIcon"><span class="wind"></span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src='./WeatherApp/weatherScript.js'></script>
+  </body>
+</html>
