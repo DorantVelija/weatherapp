@@ -11,6 +11,8 @@ This is a simple weather application that displays weather information for a giv
 
 This Weather App provides users with current weather information for a specific city. It displays details such as temperature, weather condition, humidity, and wind speed. The application fetches data from an external API and dynamically updates the UI based on the retrieved information.
 
+## ***[Hosted here](https://dorantvelija.com/WeatherApp)***
+
 
 ![Screenshot](https://github.com/DorantVelija/weatherapp/blob/main/weatherApp.png)
 
